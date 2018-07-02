@@ -1,0 +1,30 @@
+textarea{
+    resize: none;
+}
+body{
+    background: #f6f6f6;
+}
+.messagesFrame
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.messages {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.messages p {
+    display: inline-block;
+}
+.messages p.date {
+    float: right;
+}
+.messages p.author {
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}

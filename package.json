@@ -1,0 +1,26 @@
+{
+  "name": "react-chat",
+  "version": "1.0.0",
+  "description": "React live chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "react",
+    "socket"
+  ],
+  "author": "Piotr Sikora",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6",
+    "nodemon": "^1.17.5",
+    "socket.io": "^2.1.1"
+  }
+}
