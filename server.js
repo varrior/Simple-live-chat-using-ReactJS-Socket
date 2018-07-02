@@ -25,6 +25,6 @@ io.on('connection', (socket)=>{
     })
 })
 
-mongoose.connect('mongodb://localhost:27017/react-chat', err => err?console.log(err):console.log('Successfully connected to MongoDB'))
+mongoose.connect('mongodb://localhost:27017/yourAppName', err => err?console.log(err):console.log('Successfully connected to MongoDB'))
 
 http.listen(port, (err)=> err?console.log(err):console.log(`Server running on ${port}`));
